@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -36,3 +37,124 @@
     transform: rotate(360deg);
   }
 }
+.d {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  margin-top: 7%;
+  border-bottom-style: solid;
+  border-color: black;
+  padding: 2%;
+  padding-bottom: 5%;
+  border-bottom-width: 5px;
+  border: 1px;
+  border-color: grey;
+  border-style: solid;
+ 
+  border-radius: 20px;
+  box-shadow: 2px 2px;
+
+  
+ 
+
+}
+.tab {
+ 
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+ 
+ grid-template-columns: repeat(12, auto);
+ grid-template-rows: repeat(2,auto);
+ padding: 2%;
+   background-color: white; 
+   border: 1px;
+   border-color: grey;
+   border-style: solid;
+   margin-left: 3%;
+   margin-right: 3%;
+   border-radius: 20px;
+   box-shadow: 2px 2px;
+
+  
+  
+}
+
+
+.bars {
+  flex: auto;
+  
+}
+label {
+  font-family: Poppins;
+  margin: 1%;
+  font-size: medium;
+
+}
+button {
+  margin: 2%;
+  border-radius: 7px;
+  padding: 10px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color:white;
+  
+white-space: nowrap;
+ 
+  /* box-shadow: 2px 2px  ; */
+  width: fit-content;
+ 
+ 
+}
+button:hover {
+  background-color: turquoise;
+ 
+}
+.controls {
+    flex-basis: 20%;
+    flex-wrap: wrap;
+    
+}
+.controls > * {
+  display: flex;
+  justify-content: space-between;
+  flex: auto;
+}
+
+.btns {
+  
+  flex-basis: 80%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  
+}
+.blabel {
+  color: black;
+  
+ 
+  
+  
+}
+h1 {
+  font-family: poppins;
+  justify-self: center;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+.bars:hover {
+
+  background-color:white;
+ 
+
+  border: 1px;
+  border-style: solid;
+  border-color: red;
+}
+
